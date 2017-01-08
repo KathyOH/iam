@@ -37,7 +37,7 @@ get_header(); ?>
 				</div>
 				<div class="staff-info">
 					<?php echo $director_name; ?><br>
-					<?php echo "<a href=$director_email>$director_email</a>" ?>
+					<a href="mailto:<?php echo $director_email; ?>"> <?php echo $director_email ?></a>
 				</div>
 			</div>
 		</div>
@@ -49,8 +49,7 @@ get_header(); ?>
 				</div>
 				<div class="staff-info">	
 					<?php echo $coordinator_name; ?><br>
-					<a href="mailto:$coordinator_email"><?php echo $coordinator_email; ?></a>
-
+					<a href="mailto:<?php echo $coordinator_email; ?>"> <?php echo $coordinator_email ?></a>
 				</div>
 			</div>	
 		</div>
