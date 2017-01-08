@@ -26,6 +26,9 @@
 }
 
 /* Contact Us */
+.staff-head {
+	margin-top: 25px;
+}
 .staff {
 	margin-left: 0;
 }
@@ -38,6 +41,9 @@
 .staff-info{
 	float: left;
 	display: inline-block;
+}
+.image {
+	width: 175px;
 }
 .director {
 	margin-top: 5%;

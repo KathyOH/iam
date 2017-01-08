@@ -27,6 +27,9 @@ get_header(); ?>
 			<div id="content" class="site-content" role="main">
 
 	<div class="staff">
+		<div class="staff-head">
+			<h1 style="text-align: center;"><span style="color: #ff0000;"><strong>Staff</strong></span></h1>
+		</div>
 		<div class="employee-area">
 			<div class="director">
 				<div class="image">
@@ -34,7 +37,7 @@ get_header(); ?>
 				</div>
 				<div class="staff-info">
 					<?php echo $director_name; ?><br>
-					<?php echo $director_email; ?>
+					<?php echo "<a href=$director_email>$director_email</a>" ?>
 				</div>
 			</div>
 		</div>
@@ -46,7 +49,8 @@ get_header(); ?>
 				</div>
 				<div class="staff-info">	
 					<?php echo $coordinator_name; ?><br>
-					<?php echo $coordinator_email; ?>
+					<a href="mailto:$coordinator_email"><?php echo $coordinator_email; ?></a>
+
 				</div>
 			</div>	
 		</div>
