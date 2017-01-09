@@ -17,12 +17,7 @@
 				
 			<p class="iam-footer"><span><b>IAM Interfaith AIDS Ministry of Greater Danbury</b></span><br>54 Main St., Danbury, CT 06810<br>Phone: (203) 748-4077<br>Fax: (203) 748-2841<br>Email: <a href="mailto:iamlucyc@sbcglobal.net">iamlucyc@sbcglobal.net</a>
 				
-				
-				
-				
-				
-				
-				
+			
 				
 				</p>	
 				
